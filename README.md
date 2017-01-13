@@ -23,6 +23,7 @@ As long as the extension is active, it will run on its own.
 ## History
 
 V1.0: Basic working version.
+V1.1: Fixed bug where not all phrases are matched.
 
 ## Credits
 
