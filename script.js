@@ -2,9 +2,9 @@ function walkText(node) {
   if (node.nodeType == 3) {
 
     var find = "face";
-    var replacement = " ( ͡° ͜ʖ ͡°) "
+    var replacement = "( ͡° ͜ʖ ͡°)"
     var flags = "ig";
-    var regex = new RegExp('\\s' + find + '\\s', flags);
+    var regex = new RegExp('\\b' + find + '\\b', flags);
     // node.data = node.data.replace(/face/ig, "");
     node.data = node.data.replace(regex, replacement);
   }

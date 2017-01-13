@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "That Face",
-  "description": "This extension shows a Google Image search result for the current page",
+  "description": "You can't hide from him",
   "version": "1.0",
 
   "browser_action": {
